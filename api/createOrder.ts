@@ -38,6 +38,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 }
 
-// curl -X POST http://localhost:3000/api/create-order \
+// curl -X POST https://h4zp.vercel.app/api/createOrder \
 //   -H "Content-Type: application/json" \
 //   -d '{"amount": 500}'
